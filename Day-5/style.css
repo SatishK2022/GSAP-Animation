@@ -1,0 +1,106 @@
+@font-face {
+    font-family: heading;
+    src: url(./Heading-Now-Variable.ttf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, Geneva, Tahoma, sans-serif;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+    color: #ffffff;
+}
+
+.loader{
+    height: 100vh;
+    width: 100%;
+    background-color:#ededed;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loader h1{
+    font-size: 50px;
+    color: #000000;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.page1{
+    padding: 0 50px;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    overflow: hidden;
+}
+
+nav{
+    display: flex;
+    display: flex;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+}
+
+nav .logo h2{
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+nav .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}
+
+nav .nav-links p{
+    font-size: 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.page1 h1{
+    text-transform: uppercase;
+    font-size: 35rem;
+    line-height: 30rem;
+    font-family: heading;
+    white-space: nowrap;
+    font-stretch: 260%;
+    font-weight: 999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.page2{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(77, 77, 77);
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
